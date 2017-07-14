@@ -1,0 +1,44 @@
+body{
+	background: #fafafa;
+	color: #125688;
+	font-family: 'Lato';
+}
+#main-container{ /*id de section*/
+	margin: 30px auto;/*margin arriba y abajo y auto para los costados centrados*/
+}
+.imgprincipal{/*clase de la imagen*/
+	max-width: 100%;
+}
+.site-footer{/*clase del encabezado*/
+	text-transform: uppercase;/*todo mayuscula*/
+	font-size: 12px;
+}
+.login-box,
+.signup-box{
+	background-color: white;/*color del formulario en blanco*/
+	border: 1px solid #edeeee;/*linea delgada al borde del formulario*/
+	border-radius: 10px; /*borde del formulario redondeado*/
+	padding: 10px 0; /*espaciado respecto a los bordes*/
+}
+.signup-box .instagram{
+	font-family: 'Lobster';
+	font-size: 42px;
+	text-align: center;
+}
+.signup-form{
+	width: 65%;
+	margin: 0 auto;/*para centrar horizontalmente*/
+}
+.signup-form h2 {
+	color: #a5a7aa;
+	font-size: 1em;
+}
+.signup-form .btn.btn-fb{
+	background-color: #4090db;
+}
+.signup-form .btn.btn-fb:hover {
+	background-color: #2d6599;
+}
+.signup-form .btn.btn-signup {
+	background-color: #125688;
+}
